@@ -3,7 +3,7 @@ public fun loadBattle(username: String) {
 }
 
 public fun cancelBattle(username: String) {
-    println("Weet je zeker dat je niet wilt vechten?")
+    println("Oei! Slechte keuze...")
     if (readLine() == "ja") {
 
     }
