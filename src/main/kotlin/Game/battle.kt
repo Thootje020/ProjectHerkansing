@@ -10,10 +10,10 @@ public fun cancelBattle(username: String) {
 
 }
 
-public fun getRandomEnemie() {
+public fun getRandomEnemie(username: String) {
     if ((0..1).random() == 1) {
-        spawnSlang()
+        spawnSlang(username)
     } else {
-        spawnWolf()
+        spawnWolf(username)
     }
 }

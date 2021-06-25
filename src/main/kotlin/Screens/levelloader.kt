@@ -11,7 +11,7 @@ fun loadLevel(username: String) {
 
 fun loadJungle(username: String) {
     println("Je loopt door de jungle...")
-    getRandomEnemie()
+    getRandomEnemie(username)
 }
 
 fun loadSneeuw(username: String) {
